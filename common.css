@@ -1,0 +1,17 @@
+
+.clear-fix::after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    overflow: hidden;
+    clear: both;
+}
+.clear-fix {
+    zoom: 1;
+}
+.flr{
+    float: right;
+}
+.fll{float: left }

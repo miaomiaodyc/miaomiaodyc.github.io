@@ -478,7 +478,7 @@
     color: #616161
 }
 
-.time {
+.time {text-decoration: none ;
     margin-top: 16px;
     display: inline-block;
     font-size: 12px;
@@ -486,6 +486,7 @@
     color: #ff6700;
     border: 1px solid #ff6700
 }
+.time a:hover {color:red}
 
 /*footer-service-end*/
 /*footer-start*/
@@ -501,7 +502,7 @@
 }
 
 .footer-container a {
-    color: #757575
+    color: pink;
 }
 
 .footer-container i {
@@ -510,23 +511,17 @@
     font-style: normal
 }
 
-.footer.logo {
-    background: #000000;
+.footer.logo.last  {
+    background: green;
     margin-right: 10px;
 }
+.msg.links{font-size: 14px;
+    color: #000000 }
 
-.footer.footer-right.item1 {
-    display: inline-block;
-    margin-right: 5px;
+.footer.footer-right.img {
+    height: 31px;
     width: 83px;
 }
-
-.footer.footer-right .item {
-    display: inline-block;
-    width: 88px;
-    margin-right: 5px
-}
-
 .footer .safe {
     color: #ff6700
 }
